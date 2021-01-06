@@ -32,7 +32,7 @@ public class Hello {
 		@Produces(MediaType.TEXT_HTML)
 		public String sayHelloHTML()
 		{
-			String resource="<h1> <hello> Hi Raed, This is Hello from XML </hello> </h1>"		;
+			String resource="<h1> <hello> Hi Raed, This is Hello from XML. MAthews </hello> </h1>"		;
 			return resource;
 		}
 	
